@@ -1,0 +1,135 @@
+# Xcode / Swift
+DerivedData/
+.derivedData/
+.build/
+*.xcuserstate
+xcuserdata/
+*.moved-aside
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+*.xctestrun
+*.xcresult
+*.xcarchive
+
+# SwiftPM
+Package.resolved
+.swiftpm/
+
+# Logs
+*.log
+
+# Benchmark artifacts (generated locally)
+Artifacts/
+
+# Scripts locals
+scripts/
+
+# Benchmark results (generated runs; keep directory for scripts)
+Benchmarks/Results/*
+!Benchmarks/Results/.gitkeep
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# DaVinciLab
+Examples/DaVinciLab/.swiftpm/
+Examples/DaVinciLab/XcodeApp/**/xcuserdata/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+ehthumbs.db
+
+# ---------------------------------------------------------------------------
+# Personal / sensitive — never commit
+# ---------------------------------------------------------------------------
+# Signing & keys
+*.p12
+*.pem
+*.key
+*.keystore
+*.jks
+*.mobileprovision
+*.certSigningRequest
+*.cer
+id_rsa
+id_rsa.pub
+*.asc
+
+# Secrets & credentials
+.env
+.env.*
+!.env.example
+*.secret
+*.secrets
+secrets/
+credentials/
+**/credentials*.plist
+**/Secrets*.swift
+**/APIKeys*.swift
+**/Config.secret.*
+
+# Passwords (any file with these names)
+*password*
+*Password*
+*secret*
+*Secret*
+*apikey*
+*APIKey*
+*api_key*
+
+# Owner-only / private project documents (do not share in repo)
+dos/
+private/
+owner/
+personal/
+internal/
+confidential/
+*.private
+*.local
+docs/ARCHITECTURE_AND_REFACTOR.md
+docs/PRODUCT_DESCRIPTION_AND_FLAGSHIP_ROADMAP.md
+docs/REFACTOR_REPORT.md
+
+# IDE / editor (may contain paths or user info)
+.idea/
+*.iml
+.vscode/
+*.sublime-*
+.cursor/
+.windsurf/
+.ai/
+
+# CI / local scripts (if they hold tokens — keep example, ignore local)
+*.local.sh
+*.local.yml
+.github/**/*.secret.*
+
+# Archives (often contain built artifacts or copied secrets)
+*.zip
+*.tar.gz
+*.tgz
+!docs/**/*.zip
+
+# Temporary / scratch
+tmp/
+temp/
+*.tmp
+*.temp
+*.bak
+*.swp
+*~
